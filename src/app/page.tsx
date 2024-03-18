@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <main>
       
-        {/* <NavBar/>
-        <Hero/>  */}
-        <ListFast/>
+        <NavBar/>
+        <Hero/> 
+        {/* <ListFast/> */}
     </main>
   );
 }
