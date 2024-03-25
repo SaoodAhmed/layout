@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className=" pt-96 flex items-center justify-between ">
-      <div className=" w-5/12 ml-48 ">
+    <div className=" pt-96 max-w-7xl mx-auto">
+      <div className=" w-6/12  px-6 ">
         <h1 className="text-5xl leading-snug text-blue-950 mb-4">
           Introduce Your Product Quickly & Effectively
         </h1>
@@ -24,6 +24,7 @@ const Hero = () => {
       <div className=" absolute top-0 right-0 -z-20">
         <img src="/images/image.png"  alt=""/>
       </div>
+      
     </div>
   );
 };

@@ -8,8 +8,8 @@ export default function Home() {
     <main>
       
         <NavBar/>
-        <Hero/> 
-        {/* <ListFast/> */}
+        {/* <Hero/>  */}
+        <ListFast/>
     </main>
   );
 }
